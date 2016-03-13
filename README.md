@@ -26,18 +26,21 @@ docker run -d --hostname rabbit2 --name my-rabbit2 rabbitmq:3.5.7-management-ssl
 
 Update the federation upstream uri in each broker, log in the web administration console (user guest, pass guest) at
 
+```
 https://rabbit1:15672/#/federation-upstreams
 
 https://rabbit2:15672/#/federation-upstreams
+```
 
 and replacing rabbit-host by rabbit2 in rabbit1 broker and rabbit-host by rabbit1.
 
 Check the federation status in 
 
+```
 https://rabbit1:15672/#/federation
 
 https://rabbit2:15672/#/federation
-
+```
 is running
 
 ### Installing jar with dependencies

@@ -1,4 +1,4 @@
-# RabbitMq Producer and Consumer Example using Spring Amqp Framework
+# RabbitMq Producer and Consumer using Spring Amqp Framework
 
 Producer to a RabbitMq Broker (Federated) SSL External configurated, 3 messages and wait for a minute.
 
